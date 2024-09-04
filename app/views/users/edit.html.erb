@@ -1,0 +1,18 @@
+<h2>User info</h2>
+
+<% if @user.errors.any? %>
+  <%= @user.errors.count %> error prohibited this obj from being saved:
+  <ul>
+    <li>Name is too short (minimum is 2 characters)</li>
+  </ul>
+<% end %>
+
+<%= form_with model: @user do |f| %>
+  <p>Name</p>
+  <%= f.text_field :name, autofocus: true, id:"inputName" %>
+  <p>Image</p>
+  <%= f.file_field :profile_image, placeholder: "プロフィール画像", accept: "image/*" %>  
+  <p>Introduction</p>
+  <%= f.text_area :introduction, autofocus: true, id:"inputIntroduction" %>
+  <%= f.submit "Update User" %>
+<% end %>

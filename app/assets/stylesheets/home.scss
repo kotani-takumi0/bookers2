@@ -1,0 +1,27 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.content{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Log_in_btn{
+    background-color: #17a2b8;
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-align: center; 
+    display: inline-block; 
+    text-decoration: none; 
+}
+
+.Sign_up_btn{
+  background-color: #28a745;
+  color: white; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  text-align: center; 
+  display: inline-block; 
+  text-decoration: none; 
+}

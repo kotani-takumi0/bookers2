@@ -1,0 +1,27 @@
+// Place all the styles related to the book controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+table{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+.user-btn{
+    display: block;
+    width: 100%;
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-ac{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    text-align: center;
+    border-radius: .25rem;
+}
